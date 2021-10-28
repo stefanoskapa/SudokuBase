@@ -1,0 +1,87 @@
+.progressBar {
+    display: block;
+    width: 100px;
+    min-width: 100px;
+    height: 15px;
+    font-size:12px;
+    text-align: center;
+}
+
+.likes {
+    background-color: #0F0;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    width: 0px;
+    height: 15px;
+}
+
+.dislikes {
+    background-color: #F00;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    width: 0px;
+    height: 15px;
+}
+
+#container {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background:white;
+   
+    padding:50px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    color:black;
+    flex-wrap: wrap;
+}
+
+.infocolumn {
+    
+    display:flex;
+    flex-direction: column;
+}
+
+#votes {
+    display:flex;
+
+}
+
+#puzzle {
+   /* margin-left:auto;*/
+    margin-right:auto;
+    display: flex;
+    flex-direction:column;
+    border:3px solid black;
+    background-color: #f6f6f6;
+}
+
+table {
+    border-collapse: collapse;
+    border: solid 1px black;
+    font-size: 16px;
+}
+colgroup, tbody {
+    border: solid 2px black;
+}
+
+td {
+    border: solid 1px grey;
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+}
+
+.clue {
+    width:30px;
+    height:30px;
+    line-height:30px;
+}
+
+@media only screen and (max-width: 450px) {
+    #container {
+        padding:50px 10px;
+    }
+}

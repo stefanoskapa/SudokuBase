@@ -1,0 +1,206 @@
+#container {   
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction:column;
+    background-color: var(--cell);
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0.5em 2em 0.5em 0.5em;
+    border: 1px solid black;
+    font: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+    background-position: right 15px top 1em, right 10px top 1em;
+    background-size: 5px 5px, 5px 5px;
+    outline:none;
+    transition:0.5s;
+
+}
+
+main {
+    padding:100px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+
+section {
+    width:auto;
+    align-items: center;
+}
+#underpuzzle {
+    display:flex;
+    width:100%;
+    justify-content: space-between;   
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type=number] {
+    background-color: inherit;
+    border:none;
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    font-family: inherit;
+    font-size:24px;
+    outline:none;
+    text-align: center;
+    color: transparent;
+    text-shadow: 0 0 0 var(--grid);
+    transition: background-color 0.5s;
+}
+
+#congrats {
+    text-align: center;
+    background-color:white;
+    padding-top:20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input:focus {
+    background-color:  var(--grid);  
+}
+
+table {
+    border-collapse: collapse;
+    border: solid 1px var(--grid);
+    font-size: 22px;
+}
+
+colgroup, tbody {
+    border: solid 3px var(--grid);
+}
+
+td {
+    border: solid 1px var(--grid);
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+}
+
+.clue {
+    color: var(--black)
+    width:40px;
+    height:40px;
+    line-height:40px;
+}
+
+.rating {
+    display: inline-block;
+    width: 100%;
+    margin-top: 2em;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.like,
+.dislike {
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.dislike:hover,
+.like:hover {
+    color: #2EBDD1;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.active {
+    color: #2EBDD1;
+}
+
+i {
+    display:inline-block;
+    margin-top:10px;
+    width:1em;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+    main {
+        padding:0;
+        justify-content: flex-start;
+        width:100%;
+    }
+
+    #container {
+        width:100%;
+    }
+    input[type=number], .clue {       
+        width: 10vw;
+        height: 10vw;
+        line-height: 10vw;
+    }
+    .modal-content {
+        width: 100%;
+    }
+
+}
+
+
+
+
+

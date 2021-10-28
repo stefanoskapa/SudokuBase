@@ -1,0 +1,103 @@
+main {
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+section {
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    background-color: inherit;
+    border: solid 1px grey;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+    outline:none;
+
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: #EEEEEE;
+}
+
+input[type=submit] {
+    margin-top:10px;
+    padding: 8px 25px;
+}
+
+.fa-user, .fa-key {
+    color: #75b9be
+}
+
+#container {
+    /*height:400px;*/
+    background:white;
+    border-top: 8px solid #75b9be;
+    padding:20px 30px 10px 30px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0.5em 2em 0.5em 0.5em;
+    border: 1px solid black;
+    font: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+    background-position: right 15px top 1em, right 10px top 1em;
+    background-size: 5px 5px, 5px 5px;
+    outline:none;
+    transition:0.5s;
+    width:100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding:10px;
+    height:100%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+label {
+    text-align: left;
+    font-size: 16px;
+}
+
+
+.field-icon {
+    margin-left:auto;
+    margin-top: -31px;
+    font-size: 15px;
+    color:grey;
+    z-index: 2;
+}
+@media only screen and (max-width: 350px) {
+
+    section {
+        width:100%;
+    }
+}
+
