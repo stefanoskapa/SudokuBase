@@ -11,8 +11,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
@@ -34,7 +32,7 @@ public class Users implements Serializable {
     
   
     @Basic(optional = false)
-    @Pattern(regexp = "\S*", message = "Invalid Username: Contains Spaces")
+    @Pattern(regexp = "\\S*", message = "Invalid Username: Contains Spaces")
     @NotNull
     @Size(min = 1, max = 16)
     @Column(name = "username")
