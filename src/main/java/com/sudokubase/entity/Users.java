@@ -32,7 +32,7 @@ public class Users implements Serializable {
     
   
     @Basic(optional = false)
-    @Pattern(regexp = "\\S*", message = "Invalid Username: Contains Spaces")
+    @Pattern(regexp = "[0-9a-zA-Z-_]*", message = "Invalid Username")
     @NotNull
     @Size(min = 1, max = 16)
     @Column(name = "username")
