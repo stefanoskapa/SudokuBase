@@ -53,7 +53,6 @@
                 <div class="modal-content">
                     <span class="close">&times&nbsp;</span>
                     <div id = "congrats">
-                        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_bFWlbg.json"  background="transparent"  speed="1"  style="width: 300px; height: 100px;margin: 0 auto;"></lottie-player>
                         <br>
                         <h2>Congratulations!</h2><br><br>   
                         <p>For tons of puzzles and additional features <a href="/register">create an account</a>, its completely free!</p><br>
@@ -69,7 +68,6 @@
         <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
         <script src="/js/common.js"></script>
         <script src="/js/play.js"></script>
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     </body>
 
 </html>

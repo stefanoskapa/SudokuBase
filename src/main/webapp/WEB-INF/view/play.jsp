@@ -16,7 +16,6 @@
         <script src="https://code.jquery.com/jquery-3.6.0.js"
                 integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         crossorigin="anonymous"></script>     
-        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
         <link href="css/hamburgers.css" rel="stylesheet">
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/play.css">
@@ -73,7 +72,6 @@
                 <div class="modal-content">
                     <span class="close">&times&nbsp;</span>
                     <div id = "congrats">
-                        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_bFWlbg.json"  background="transparent"  speed="1"  style="width: 300px; height: 100px;margin: 0 auto;"></lottie-player>
                         <br>
                         <h2>Congratulations!</h2><br><br>   
                         <p>Fancy another one? Solve a new <a href="/play">random puzzle</a></p><br>
