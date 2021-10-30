@@ -2,9 +2,13 @@
 SudokuBase is an online platform for playing sudoku. The latest version is available here: www.sudokubase.com
 
 # How does Sudokubase work?
+SudokuBase uses a Sudoku engine (SudoGen, still a private project but will soon be available as open source).
+At regular intervals, the Sudoku generator produces new puzzles and those are stored in the database, along with further
+puzzle information and user solving statistics.
+
+# What technologies are in play? 
 The SudokuBase backend is based on the Spring Framework. Further technologies used for this project are 
-MySQL, jQuery and of course the holy trinity: HTML, CSS and JS. SudokuBase uses a Sudoku engine called 
-SudoGen, which is still a private project but will soon be available as open source. Deployment is done
+MySQL, jQuery and of course the holy trinity: HTML, CSS and JS. Deployment is done
 on Heroku.
 
 # What is the goal?
@@ -14,7 +18,7 @@ gamification features like rating, archievements and badges.
 
 # Contributing
 Whether you want to help SudokuBase grow or just sharpen your claws in programming, SudokuBase needs you!
-Have a look at the issues tab, pick one, or raise an issue yourself. To make a pull request:
+Have a look at the issues tab, pick one, or raise one yourself. To make a pull request:
 
  1. **Fork** the repo on GitHub
  2. **Clone** the project to your own machine
