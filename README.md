@@ -9,7 +9,7 @@ puzzle information and user solving statistics.
 # What technologies are in play? 
 The SudokuBase backend is based on the Spring Framework. Further technologies used for this project are 
 MySQL, jQuery and of course the holy trinity: HTML, CSS and JS. Deployment is done
-on Heroku.
+on Heroku and mail service is provided by SendGrid
 
 # What is the goal?
 The goal is to create a free platform for sudoku-fans, providing unlimited puzzles for different levels
