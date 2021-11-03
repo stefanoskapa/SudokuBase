@@ -1,9 +1,3 @@
-<%-- 
-    Document   : admin
-    Created on : May 28, 2021, 4:40:51 PM
-    Author     : Stefanos
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

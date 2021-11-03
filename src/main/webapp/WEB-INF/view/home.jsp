@@ -24,13 +24,14 @@
 
         <header>
             <div id="logo">
-                <a href = "/home">
-                <img src="/img/sudoku_base-logo-blue.svg" alt="SudokuBase" height="45"> 
+                <a href = "/">
+                    <img src="/img/sudoku_base-logo-blue.svg" alt="SudokuBase" height="45"> 
+                </a>
+
                 <button id ="crazyham" class="hamburger hamburger--spin icon" type="button" onclick="myFunction()">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span>
                     </span>
-                </a>
                 </button>
             </div>
 
@@ -50,7 +51,7 @@
                 </div>
                 <br>
             </section>
-            
+
             <div id="myModal" class="modal">
                 <div class="modal-content">
                     <span class="close">&times&nbsp;</span>
@@ -58,7 +59,7 @@
                         <br>
                         <h2>Congratulations!</h2><br><br>   
                         <p>For tons of puzzles and additional features <a href="/register">create an account</a>, its completely free!</p><br>
-                        
+
                     </div>
                 </div>
             </div>

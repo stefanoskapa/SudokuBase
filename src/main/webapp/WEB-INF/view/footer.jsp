@@ -1,6 +1,6 @@
 <footer>
     <cont6>
-        <a href = "/home">
+        <a href = "/">
         <img src="/img/sudoku_base-logo-white.svg" alt="SudokuBase" height="45"> 
         </a>
     </cont6> 

@@ -33,15 +33,15 @@
     <body>
         <header>
             <div id="logo">
-                <a href = "/home">
-                <img src="/img/sudoku_base-logo-blue.svg" alt="SudokuBase" height="45"> 
-
+                <a href = "/">
+                    <img src="/img/sudoku_base-logo-blue.svg" alt="SudokuBase" height="45"> 
+                </a>
                 <button id ="crazyham" class="hamburger hamburger--spin icon" type="button" onclick="myFunction()">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span>
                     </span>
                 </button>
-            </a>
+
             </div>
 
             <div id="homelinks">             
@@ -54,7 +54,7 @@
         <main>
 
             <section>
-              <p>If you have forgotten your password, simply enter your email address and we will send you a link to reset your password</p>
+                <p>If you have forgotten your password, simply enter your email address and we will send you a link to reset your password</p>
 
             </section>
             <section>
@@ -64,7 +64,7 @@
                             <form:label path="email">Email</form:label>
                             <form:input id="email" type="email" path="email" required="required" minlength="6" maxlength="254"/>                       
                         </div>
-                        
+
                         <div class="field">
                             <input type="submit" value="SUBMIT"/>
                         </div>

@@ -9,7 +9,6 @@ import com.sudokubase.repository.UsersPuzzlesRepository;
 import java.security.Principal;
 import java.text.SimpleDateFormat;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
@@ -18,8 +17,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import sudogen.Solver;
-import sudogen.Tname;
 import sudogen.Utils;
 
 @Controller

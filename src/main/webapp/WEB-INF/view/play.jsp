@@ -24,15 +24,15 @@
     <body>
         <header>
             <div id="logo">
-                <a href = "/home">
-                <img src="/img/sudoku_base-logo-blue.svg" alt="SudokuBase" height="45"> 
-
+                <a href = "/">
+                    <img src="/img/sudoku_base-logo-blue.svg" alt="SudokuBase" height="45"> 
+                </a>
                 <button id ="crazyham" class="hamburger hamburger--spin icon" type="button" onclick="myFunction()">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span>
                     </span>
                 </button>
-            </a>
+
             </div>
 
             <div id="homelinks">             
@@ -69,14 +69,14 @@
 
             </section>
             <!-- The Modal -->
-           <div id="myModal" class="modal">
+            <div id="myModal" class="modal">
                 <div class="modal-content">
                     <span class="close">&times&nbsp;</span>
                     <div id = "congrats">
                         <br>
                         <h2>Congratulations!</h2><br><br>   
                         <p>Fancy another one? Solve a new <a href="/play">random puzzle</a></p><br>
-                        
+
                     </div>
                 </div>
             </div>
