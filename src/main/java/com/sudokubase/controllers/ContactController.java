@@ -1,4 +1,3 @@
-
 package com.sudokubase.controllers;
 
 import com.sudokubase.service.SendGridService;
@@ -13,18 +12,21 @@ public class ContactController {
 
     @Autowired
     private SendGridService sendGridService;
-    
+
     @GetMapping("/contact")
     public String showContactForm() {
         return "contact";
     }
-    
+
     @PostMapping("/contact")
-    public String sendEmail(@RequestParam String name,@RequestParam String email, @RequestParam String message) {
-        System.out.println(name);
-        System.out.println(email);
-        System.out.println(message);
-        sendGridService.sendEmailWithSendGrid("name: " + name + "<br>" + "email: " + email + "<br>"+ "message: " + message, "koutsouflakis.stefanos@gmail.com","SudokuBase - User Message");
+    public String sendEmail(@RequestParam String name, @RequestParam String email, @RequestParam String message) {
+        sendGridService.sendEmailWithSendGrid(
+                "name: " + name + "<br>"
+                + "email: " + email + "<br>"
+                + "message: " + message,
+                "koutsouflakis.stefanos@gmail.com",
+                "SudokuBase - User Message"
+        );
         return "home";
     }
 }

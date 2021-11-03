@@ -5,7 +5,7 @@
         </a>
     </cont6> 
     <cont7>
-        All rights reserved. � SUDOKU BASE 2021    
+        
     </cont7>
     <cont8>
         <div>

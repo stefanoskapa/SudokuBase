@@ -88,7 +88,7 @@ public class RegistrationController {
         ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
         executorService.schedule(exampleRunnable, 86400, TimeUnit.SECONDS);
 
-        return "email1";
+        return "activation_email";
     }
 
     @GetMapping("/confirm-account")
@@ -107,7 +107,7 @@ public class RegistrationController {
                 user.setEnabled(true);
             }
             userRepository.save(user);
-            return "success";
+            return "activation_success";
 
         }
         return "expired";
@@ -141,7 +141,7 @@ public class RegistrationController {
         executorService.schedule(exampleRunnable, 900, TimeUnit.SECONDS);
             
             model.addAttribute("email", temp1.getEmail());
-            return "email2";
+            return "reset_email";
         }
         return "home";
     }

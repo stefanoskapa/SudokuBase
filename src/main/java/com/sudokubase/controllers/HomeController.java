@@ -28,7 +28,7 @@ public class HomeController {
 
     @GetMapping("/privacy")
     public String showPolicy() {
-        return "pp";
+        return "policy";
     }
 
 }
