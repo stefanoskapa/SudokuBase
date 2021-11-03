@@ -1,9 +1,11 @@
 <footer>
     <cont6>
+        <a href = "/home">
         <img src="/img/sudoku_base-logo-white.svg" alt="SudokuBase" height="45"> 
+        </a>
     </cont6> 
     <cont7>
-        All rights reserved. © SUDOKU BASE 2021    
+        All rights reserved. ï¿½ SUDOKU BASE 2021    
     </cont7>
     <cont8>
         <div>
