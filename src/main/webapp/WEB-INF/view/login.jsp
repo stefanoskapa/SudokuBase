@@ -17,6 +17,7 @@
 
         <header>
             <div id="logo">
+                <a href = "/home">
                 <img src="/img/sudoku_base-logo-blue.svg" alt="SudokuBase" height="45"> 
 
                 <button id ="crazyham" class="hamburger hamburger--spin icon" type="button" onclick="myFunction()">
@@ -24,7 +25,7 @@
                         <span class="hamburger-inner"></span>
                     </span>
                 </button>
-
+            </a>
             </div>
 
             <div id="homelinks">                           
