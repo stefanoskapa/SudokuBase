@@ -17,6 +17,7 @@
 
     <body>
         <header>
+            <a href = "/home">
             <div id="logo">
                 <img src="/img/sudoku_base-logo-blue.svg" alt="SudokuBase" height="45"> 
 
@@ -25,7 +26,7 @@
                         <span class="hamburger-inner"></span>
                     </span>
                 </button>
-
+            </a>
             </div>
 
             <div id="homelinks">             
