@@ -18,12 +18,14 @@
     <body>
         <header>
             <div id="logo">
+            <a href = "/home">
                 <img src="/img/zeitvertreib.png" alt="logo" width="40" height="40"> 
                 <button id ="crazyham" class="hamburger hamburger--spin icon" type="button"  onclick="myFunction()">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span>
                     </span>
                 </button>
+            </a>
             </div>
 
             <div id="homelinks">             
