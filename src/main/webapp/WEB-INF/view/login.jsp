@@ -30,7 +30,7 @@
 
             <div id="homelinks">                           
                 <a href="/">HOME</a>           
-                <a href="/register" id="create">CREATE YOUR ACCOUNT</a>
+                <a href="/register" id="create">REGISTER</a>
             </div>
 
         </header>

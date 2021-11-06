@@ -27,7 +27,6 @@ header {
     position:fixed;
     z-index:2;
     width:100%;
-    border-bottom: 1px solid #75b9be;
 }
 
 main {
