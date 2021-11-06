@@ -17,6 +17,7 @@ a.fancy {
     color:white;
     display:flex;
     flex-direction: column;
+    text-decoration: none;
     justify-content: center;
     align-items: center;
     font-size:20px;
