@@ -41,6 +41,8 @@
 
         </header>
         <main>
+            <input type ="number" id ="ups" value = "${positive}" hidden/>
+            <input type ="number" id ="downs" value = "${negative}" hidden/>
             <input type ="text" id ="puzzlestring" value = "${puzzle}" hidden/>
             <section>
 
@@ -92,7 +94,23 @@
                         </c:if>
 
 
-                        
+                        <c:if test = "${positive != 0 || negative != 0 }">
+                            <div id="votes">
+                                <p>Upvotes/Downvotes: &nbsp </p>
+                                <div class='progressBar'>
+                                    <div class='likes'>
+                                        <c:if test = "${positive != 0}">
+                                            <b> ${positive}</b>
+                                        </c:if>
+                                    </div>
+                                    <div class='dislikes'>
+                                        <c:if test = "${negative != 0}">
+                                            <b> ${negative}</b>
+                                        </c:if>
+                                    </div>
+                                </div>
+                            </div>
+                        </c:if>
                         <br><br>
                     </div>
 
