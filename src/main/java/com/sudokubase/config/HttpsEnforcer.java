@@ -12,8 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-
-
 public class HttpsEnforcer implements Filter {
   public static final String X_FORWARDED_PROTO = "X-Forwarded-Proto";
 

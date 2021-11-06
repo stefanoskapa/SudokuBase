@@ -99,7 +99,7 @@ public class RegistrationController {
             confirmationTokenRepository.delete(token);
             Users user = userRepository.findByEmailIgnoreCase(token.getUser().getEmail());
             System.out.println(">>>>>>>>>>> user to be evaluated: " + user);
-            if (user.getEnabled()) { //user is here to change his password
+            if (user.getEnabled()) { // user is here to change his password
                 model.addAttribute("tempUser", user);
                 return "changepwd";
             } else { // user is here to activate his account

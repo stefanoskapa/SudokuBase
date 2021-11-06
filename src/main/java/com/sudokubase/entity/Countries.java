@@ -11,12 +11,10 @@ import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import javax.xml.bind.annotation.XmlRootElement;
 
 
 @Entity
 @Table(name = "countries")
-//@XmlRootElement
 @NamedQueries({
     @NamedQuery(name = "Countries.findAll", query = "SELECT c FROM Countries c")
     , @NamedQuery(name = "Countries.findByCode2", query = "SELECT c FROM Countries c WHERE c.code2 = :code2")

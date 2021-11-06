@@ -1,9 +1,6 @@
 
 package com.sudokubase.model;
 
-import java.util.Date;
-
-
 public class NewGame {
     private int id;
     private String puzzle;
