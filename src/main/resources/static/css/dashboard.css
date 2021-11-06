@@ -2,8 +2,8 @@ section {
     display:flex;
     flex-direction:row;
     justify-content: center;
-    flex-wrap:wrap;
-    
+    align-items: center;
+    flex-wrap:wrap;  
 }
 
 main {
@@ -13,8 +13,8 @@ main {
 a.fancy {   
     width: 100px;
     height: 100px;
-    background-color: #75b9be;
-    color:white;
+    background-color: var(--white);
+    color:var(--semidark);
     display:flex;
     flex-direction: column;
     text-decoration: none;
@@ -26,6 +26,6 @@ a.fancy {
 }
 
 a.fancy:hover {
-    color:#75b9be; 
-    background-color:white;
+    color:var(--white); 
+    background-color:var(--semidark);
 }
