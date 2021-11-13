@@ -21,7 +21,8 @@
     </head>
 
     <body>
-
+        <jsp:include page="navbar.jsp"/>
+<!--
         <header>
             <div id="logo">
                 <a href = "/">
@@ -39,8 +40,8 @@
                 <a href="/login">LOGIN</a>           
                 <a href="/register">REGISTER</a>
             </div>
-
         </header>
+        -->
         <main>
             <input type="text" id="pid" value = "0" hidden/>
             <section>
