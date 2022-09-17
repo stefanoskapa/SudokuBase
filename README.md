@@ -1,5 +1,5 @@
 # What is SudokuBase?
-SudokuBase is an online platform for playing sudoku. The latest version is available here: www.sudokubase.com
+SudokuBase is an online platform for playing sudoku. 
 
 # How does Sudokubase work?
 SudokuBase uses a Sudoku engine (SudoGen, still a private project but will soon be available as open source).
